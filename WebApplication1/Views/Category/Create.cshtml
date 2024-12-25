@@ -1,0 +1,17 @@
+﻿
+@model Category
+
+<div class="container">
+    <form method="post" asp-action="CreateCategory">
+        <div class="form-floating mb-3">
+            <input class="form-control" name="name" type="text" placeholder="Enter new category..." data-sb-validations="required" />
+            <label for="category">Category</label>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-primary  btn-lg" id="submitButton" type="submit">
+                Create
+            </button>
+        </div>
+    </form>
+
+</div>

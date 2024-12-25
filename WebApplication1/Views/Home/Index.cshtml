@@ -1,0 +1,16 @@
+﻿@using WebApplication1.Appsrc.DataBase
+@model User
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center" style="background-color:antiquewhite; border-radius:6px; height:100vh;">
+    <h1 class="display-4">Welcome to the Online Store!!</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @if (Model is not null)
+    {
+        <p class="display-3">Current Online User: @Model.Name</p>
+    }
+    @if(true)
+    {}
+</div>
